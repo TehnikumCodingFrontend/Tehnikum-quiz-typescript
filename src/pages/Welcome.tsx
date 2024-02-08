@@ -15,10 +15,10 @@ const Welcome = () => {
                 placeholder="Ваш ответ"
               />
               <span id="error-message">
-                Введите номер в правильном формате например
+                Введите имя
               </span>
             </label>
-            <label className="input-wrapper" htmlFor="username">
+            <label className="input-wrapper" htmlFor="phone">
               Ваш номер
               <input
                 required
@@ -26,11 +26,10 @@ const Welcome = () => {
                 name="phone"
                 id="phone"
                 placeholder="+998 9- --- -- -- "
-                pattern="^(?:\+998)?(?:\d{2})?(?:\d{7})$"
               />
               <span id="error-message">Введите номер в правильном формате</span>
             </label>
-            <button disabled type="submit" id="next-btn">
+            <button disabled type="button" id="next-btn">
               Далее
             </button>
           </form>

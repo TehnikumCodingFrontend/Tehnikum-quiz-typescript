@@ -27,7 +27,7 @@ const StepOne = () => {
                 placeholder="Ваш ответ"
               />
               <span id="error-message">
-                Введите номер в правильном формате например
+                Введите ваш ответ
               </span>
             </label>
             <button type="button" disabled id="next-btn">
