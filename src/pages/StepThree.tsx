@@ -18,7 +18,7 @@ const StepThree = () => {
             </div>
           </div>
           <div className="question">
-            <h2>3. Занимательный вопрос</h2>
+            <h2>3. Преподование какого из спикеров вам нравится больше всего</h2>
             <ul className="emoji-variants">
               <li className="variant-wrapper">
                 <input required type="radio" name="variant" id="variant-1" />

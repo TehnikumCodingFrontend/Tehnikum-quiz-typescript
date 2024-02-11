@@ -18,7 +18,7 @@ const StepTwo = () => {
             </div>
           </div>
           <div className="question">
-            <h2>2. Занимательный вопрос</h2>
+            <h2>2. Чему вам хотелось бы по больше уделить время</h2>
             <ul className="variants">
               <li className="variant-wrapper">
                 <input required type="radio" name="variant-1" id="variant-1" />
