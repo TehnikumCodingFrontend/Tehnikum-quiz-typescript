@@ -18,23 +18,23 @@ const StepTwo = () => {
             </div>
           </div>
           <div className="question">
-            <h2>2. Чему вам хотелось бы по больше уделить время</h2>
+            <h2>2. На какой курс вы хотите пойти?</h2>
             <ul className="variants">
               <li className="variant-wrapper">
                 <input required type="radio" name="variant-1" id="variant-1" />
-                <label htmlFor="variant-1">Ваш ответ</label>
+                <label htmlFor="variant-1">Frontend</label>
               </li>
               <li className="variant-wrapper">
                 <input required type="radio" name="variant-2" id="variant-2" />
-                <label htmlFor="variant-2">Ваш ответ</label>
+                <label htmlFor="variant-2">Python</label>
               </li>
               <li className="variant-wrapper">
                 <input required type="radio" name="variant-3" id="variant-3" />
-                <label htmlFor="variant-3">Ваш ответ</label>
+                <label htmlFor="variant-3">UX/UI</label>
               </li>
               <li className="variant-wrapper">
                 <input required type="radio" name="variant-4" id="variant-4" />
-                <label htmlFor="variant-4">Ваш ответ</label>
+                <label htmlFor="variant-4">Design</label>
               </li>
             </ul>
             <button type="button" disabled id="next-btn">

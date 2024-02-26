@@ -18,7 +18,7 @@ const StepFour = () => {
             </div>
           </div>
           <div className="question">
-            <h2>4. Оцените качество преподоваемых уроков</h2>
+            <h2>4. Хотите ли вы стать частью семьи Tehnikum?</h2>
             <ul className="level-variants">
               <li className="variant-wrapper">
                 <input required type="radio" name="variant" id="variant-1" />

@@ -18,7 +18,7 @@ const StepOne = () => {
             </div>
           </div>
           <div className="question">
-            <h2>Оцените по сложности преподования курсов наших спикеров от 0 до 9</h2>
+            <h2>1. Где вы узнали про нашу школу?</h2>
             <label className="input-wrapper">
               <input
                 required
